@@ -7,27 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0C26051EC9F37700A51CE7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C26041EC9F37700A51CE7 /* StoreKit.framework */; };
+		1E19F7981EBCF8240080B404 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E19F7971EBCF8240080B404 /* DirectionsViewController.swift */; };
 		1E2500171EBCF09F00B69287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2500161EBCF09F00B69287 /* AppDelegate.swift */; };
-		1E2500191EBCF09F00B69287 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2500181EBCF09F00B69287 /* FirstViewController.swift */; };
-		1E25001B1EBCF09F00B69287 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25001A1EBCF09F00B69287 /* SecondViewController.swift */; };
+		1E2500191EBCF09F00B69287 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2500181EBCF09F00B69287 /* RemindersViewController.swift */; };
+		1E25001B1EBCF09F00B69287 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25001A1EBCF09F00B69287 /* AppointmentsViewController.swift */; };
 		1E25001E1EBCF09F00B69287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E25001C1EBCF09F00B69287 /* Main.storyboard */; };
 		1E2500201EBCF09F00B69287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E25001F1EBCF09F00B69287 /* Assets.xcassets */; };
 		1E2500231EBCF09F00B69287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2500211EBCF09F00B69287 /* LaunchScreen.storyboard */; };
+		1E25002B1EBCF32200B69287 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E25002A1EBCF32200B69287 /* GoogleService-Info.plist */; };
+		1E63ADCF1EE09BCF00438A0B /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E63ADCE1EE09BCF00438A0B /* Stickers.xcassets */; };
+		1E63ADD31EE09BCF00438A0B /* PBS Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1E63ADCC1EE09BCF00438A0B /* PBS Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E95128C1ED9819A00B64D32 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95128B1ED9819A00B64D32 /* Reachability.swift */; };
+		57C680E77ABC423169F700C8 /* Pods_pbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AB05AF898CB3E5FDE987B9 /* Pods_pbs.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1E63ADD11EE09BCF00438A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E25000B1EBCF09F00B69287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E63ADCB1EE09BCF00438A0B;
+			remoteInfo = "PBS Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E63ADD71EE09BCF00438A0B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1E63ADD31EE09BCF00438A0B /* PBS Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1E0C26041EC9F37700A51CE7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1E19F7971EBCF8240080B404 /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
 		1E2500131EBCF09F00B69287 /* pbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2500161EBCF09F00B69287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E2500181EBCF09F00B69287 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1E25001A1EBCF09F00B69287 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1E2500181EBCF09F00B69287 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		1E25001A1EBCF09F00B69287 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
 		1E25001D1EBCF09F00B69287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E25001F1EBCF09F00B69287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2500221EBCF09F00B69287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E2500241EBCF09F00B69287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E25002A1EBCF32200B69287 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E63ADCC1EE09BCF00438A0B /* PBS Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PBS Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E63ADCE1EE09BCF00438A0B /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		1E63ADD01EE09BCF00438A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E95128B1ED9819A00B64D32 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1EBBE5D41EBD343F0045EE85 /* pbs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pbs.entitlements; sourceTree = "<group>"; };
+		9ECF875B0A243A9C74ACD74E /* Pods-pbs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pbs.release.xcconfig"; path = "Pods/Target Support Files/Pods-pbs/Pods-pbs.release.xcconfig"; sourceTree = "<group>"; };
+		E63291D20CF3A1576D313C31 /* Pods-pbs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pbs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pbs/Pods-pbs.debug.xcconfig"; sourceTree = "<group>"; };
+		F8AB05AF898CB3E5FDE987B9 /* Pods_pbs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pbs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1E2500101EBCF09F00B69287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C680E77ABC423169F700C8 /* Pods_pbs.framework in Frameworks */,
+				1E0C26051EC9F37700A51CE7 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF3FB722F12AE9CAF38F40C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				1E2500151EBCF09F00B69287 /* pbs */,
+				1E63ADCD1EE09BCF00438A0B /* PBS Stickers */,
 				1E2500141EBCF09F00B69287 /* Products */,
+				8768167641B8729085C9BE2D /* Pods */,
+				DC8AB2D84235476904F3548F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				1E2500131EBCF09F00B69287 /* pbs.app */,
+				1E63ADCC1EE09BCF00438A0B /* PBS Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +111,46 @@
 		1E2500151EBCF09F00B69287 /* pbs */ = {
 			isa = PBXGroup;
 			children = (
+				1EBBE5D41EBD343F0045EE85 /* pbs.entitlements */,
 				1E2500161EBCF09F00B69287 /* AppDelegate.swift */,
-				1E2500181EBCF09F00B69287 /* FirstViewController.swift */,
-				1E25001A1EBCF09F00B69287 /* SecondViewController.swift */,
+				1E95128B1ED9819A00B64D32 /* Reachability.swift */,
+				1E2500181EBCF09F00B69287 /* RemindersViewController.swift */,
+				1E25001A1EBCF09F00B69287 /* AppointmentsViewController.swift */,
+				1E19F7971EBCF8240080B404 /* DirectionsViewController.swift */,
 				1E25001C1EBCF09F00B69287 /* Main.storyboard */,
 				1E25001F1EBCF09F00B69287 /* Assets.xcassets */,
 				1E2500211EBCF09F00B69287 /* LaunchScreen.storyboard */,
 				1E2500241EBCF09F00B69287 /* Info.plist */,
+				1E25002A1EBCF32200B69287 /* GoogleService-Info.plist */,
 			);
 			path = pbs;
+			sourceTree = "<group>";
+		};
+		1E63ADCD1EE09BCF00438A0B /* PBS Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				1E63ADCE1EE09BCF00438A0B /* Stickers.xcassets */,
+				1E63ADD01EE09BCF00438A0B /* Info.plist */,
+			);
+			path = "PBS Stickers";
+			sourceTree = "<group>";
+		};
+		8768167641B8729085C9BE2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E63291D20CF3A1576D313C31 /* Pods-pbs.debug.xcconfig */,
+				9ECF875B0A243A9C74ACD74E /* Pods-pbs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC8AB2D84235476904F3548F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E0C26041EC9F37700A51CE7 /* StoreKit.framework */,
+				F8AB05AF898CB3E5FDE987B9 /* Pods_pbs.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,18 +160,39 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E2500271EBCF09F00B69287 /* Build configuration list for PBXNativeTarget "pbs" */;
 			buildPhases = (
+				60452909D63E32F23D8E75D9 /* [CP] Check Pods Manifest.lock */,
 				1E25000F1EBCF09F00B69287 /* Sources */,
 				1E2500101EBCF09F00B69287 /* Frameworks */,
 				1E2500111EBCF09F00B69287 /* Resources */,
+				F3B444784C35442D9263781C /* [CP] Embed Pods Frameworks */,
+				9274A66DEA73002F7F75B8CD /* [CP] Copy Pods Resources */,
+				1E63ADD71EE09BCF00438A0B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1E63ADD21EE09BCF00438A0B /* PBXTargetDependency */,
 			);
 			name = pbs;
 			productName = pbs;
 			productReference = 1E2500131EBCF09F00B69287 /* pbs.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1E63ADCB1EE09BCF00438A0B /* PBS Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E63ADD61EE09BCF00438A0B /* Build configuration list for PBXNativeTarget "PBS Stickers" */;
+			buildPhases = (
+				1E63ADCA1EE09BCF00438A0B /* Resources */,
+				EAF3FB722F12AE9CAF38F40C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PBS Stickers";
+			productName = "PBS Stickers";
+			productReference = 1E63ADCC1EE09BCF00438A0B /* PBS Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +205,19 @@
 				ORGANIZATIONNAME = "Ryan Ball";
 				TargetAttributes = {
 					1E2500121EBCF09F00B69287 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8GT4MJG4L6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					1E63ADCB1EE09BCF00438A0B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 8GT4MJG4L6;
 						ProvisioningStyle = Automatic;
@@ -118,6 +238,7 @@
 			projectRoot = "";
 			targets = (
 				1E2500121EBCF09F00B69287 /* pbs */,
+				1E63ADCB1EE09BCF00438A0B /* PBS Stickers */,
 			);
 		};
 /* End PBXProject section */
@@ -128,25 +249,100 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2500231EBCF09F00B69287 /* LaunchScreen.storyboard in Resources */,
+				1E25002B1EBCF32200B69287 /* GoogleService-Info.plist in Resources */,
 				1E2500201EBCF09F00B69287 /* Assets.xcassets in Resources */,
 				1E25001E1EBCF09F00B69287 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E63ADCA1EE09BCF00438A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E63ADCF1EE09BCF00438A0B /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60452909D63E32F23D8E75D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pbs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9274A66DEA73002F7F75B8CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pbs/Pods-pbs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B444784C35442D9263781C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pbs/Pods-pbs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pbs/Pods-pbs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E25000F1EBCF09F00B69287 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E25001B1EBCF09F00B69287 /* SecondViewController.swift in Sources */,
+				1E25001B1EBCF09F00B69287 /* AppointmentsViewController.swift in Sources */,
 				1E2500171EBCF09F00B69287 /* AppDelegate.swift in Sources */,
-				1E2500191EBCF09F00B69287 /* FirstViewController.swift in Sources */,
+				1E19F7981EBCF8240080B404 /* DirectionsViewController.swift in Sources */,
+				1E95128C1ED9819A00B64D32 /* Reachability.swift in Sources */,
+				1E2500191EBCF09F00B69287 /* RemindersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E63ADD21EE09BCF00438A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E63ADCB1EE09BCF00438A0B /* PBS Stickers */;
+			targetProxy = 1E63ADD11EE09BCF00438A0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1E25001C1EBCF09F00B69287 /* Main.storyboard */ = {
@@ -263,27 +459,57 @@
 		};
 		1E2500281EBCF09F00B69287 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63291D20CF3A1576D313C31 /* Pods-pbs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pbs/pbs.entitlements;
 				DEVELOPMENT_TEAM = 8GT4MJG4L6;
 				INFOPLIST_FILE = pbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ryanball.pbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		1E2500291EBCF09F00B69287 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECF875B0A243A9C74ACD74E /* Pods-pbs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pbs/pbs.entitlements;
 				DEVELOPMENT_TEAM = 8GT4MJG4L6;
 				INFOPLIST_FILE = pbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ryanball.pbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E63ADD41EE09BCF00438A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 8GT4MJG4L6;
+				INFOPLIST_FILE = "PBS Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.pbs.PBS-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1E63ADD51EE09BCF00438A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 8GT4MJG4L6;
+				INFOPLIST_FILE = "PBS Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ryanball.pbs.PBS-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -306,6 +532,16 @@
 				1E2500291EBCF09F00B69287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E63ADD61EE09BCF00438A0B /* Build configuration list for PBXNativeTarget "PBS Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E63ADD41EE09BCF00438A0B /* Debug */,
+				1E63ADD51EE09BCF00438A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
