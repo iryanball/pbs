@@ -1,0 +1,77 @@
+{
+  "stickers" : [
+    {
+      "filename" : "PBS.sticker"
+    },
+    {
+      "filename" : "silouette.sticker"
+    },
+    {
+      "filename" : "lip_gloss.sticker"
+    },
+    {
+      "filename" : "nails.sticker"
+    },
+    {
+      "filename" : "nail_polish.sticker"
+    },
+    {
+      "filename" : "eye_shadows.sticker"
+    },
+    {
+      "filename" : "mascara.sticker"
+    },
+    {
+      "filename" : "mirror.sticker"
+    },
+    {
+      "filename" : "cosmetic_brush.sticker"
+    },
+    {
+      "filename" : "perfume_bottle.sticker"
+    },
+    {
+      "filename" : "lipstick.sticker"
+    },
+    {
+      "filename" : "person_in_a_mirror.sticker"
+    },
+    {
+      "filename" : "spa_flower.sticker"
+    },
+    {
+      "filename" : "deodorant_spray.sticker"
+    },
+    {
+      "filename" : "foundation_makeup.sticker"
+    },
+    {
+      "filename" : "spa_candle.sticker"
+    },
+    {
+      "filename" : "aromatic_stick.sticker"
+    },
+    {
+      "filename" : "stones.sticker"
+    },
+    {
+      "filename" : "lips.sticker"
+    },
+    {
+      "filename" : "cream_tube.sticker"
+    },
+    {
+      "filename" : "cosmetic_soap.sticker"
+    },
+    {
+      "filename" : "face_powder.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

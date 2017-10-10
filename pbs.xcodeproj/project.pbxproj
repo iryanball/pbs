@@ -13,11 +13,11 @@
 		1E2500191EBCF09F00B69287 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2500181EBCF09F00B69287 /* RemindersViewController.swift */; };
 		1E25001B1EBCF09F00B69287 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25001A1EBCF09F00B69287 /* AppointmentsViewController.swift */; };
 		1E25001E1EBCF09F00B69287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E25001C1EBCF09F00B69287 /* Main.storyboard */; };
-		1E2500201EBCF09F00B69287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E25001F1EBCF09F00B69287 /* Assets.xcassets */; };
 		1E2500231EBCF09F00B69287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2500211EBCF09F00B69287 /* LaunchScreen.storyboard */; };
 		1E25002B1EBCF32200B69287 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E25002A1EBCF32200B69287 /* GoogleService-Info.plist */; };
 		1E63ADCF1EE09BCF00438A0B /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E63ADCE1EE09BCF00438A0B /* Stickers.xcassets */; };
 		1E63ADD31EE09BCF00438A0B /* PBS Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1E63ADCC1EE09BCF00438A0B /* PBS Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E7D03DE1F7BEE01007AD529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E848C1F712AB90090C23A /* Assets.xcassets */; };
 		1E95128C1ED9819A00B64D32 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95128B1ED9819A00B64D32 /* Reachability.swift */; };
 		57C680E77ABC423169F700C8 /* Pods_pbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AB05AF898CB3E5FDE987B9 /* Pods_pbs.framework */; };
 /* End PBXBuildFile section */
@@ -54,10 +54,10 @@
 		1E2500181EBCF09F00B69287 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
 		1E25001A1EBCF09F00B69287 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
 		1E25001D1EBCF09F00B69287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E25001F1EBCF09F00B69287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2500221EBCF09F00B69287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E2500241EBCF09F00B69287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E25002A1EBCF32200B69287 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E4E848C1F712AB90090C23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E63ADCC1EE09BCF00438A0B /* PBS Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PBS Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E63ADCE1EE09BCF00438A0B /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		1E63ADD01EE09BCF00438A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 				1E25001A1EBCF09F00B69287 /* AppointmentsViewController.swift */,
 				1E19F7971EBCF8240080B404 /* DirectionsViewController.swift */,
 				1E25001C1EBCF09F00B69287 /* Main.storyboard */,
-				1E25001F1EBCF09F00B69287 /* Assets.xcassets */,
 				1E2500211EBCF09F00B69287 /* LaunchScreen.storyboard */,
+				1E4E848C1F712AB90090C23A /* Assets.xcassets */,
 				1E2500241EBCF09F00B69287 /* Info.plist */,
 				1E25002A1EBCF32200B69287 /* GoogleService-Info.plist */,
 			);
@@ -201,12 +201,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Ryan Ball";
 				TargetAttributes = {
 					1E2500121EBCF09F00B69287 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 8GT4MJG4L6;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
@@ -250,7 +251,7 @@
 			files = (
 				1E2500231EBCF09F00B69287 /* LaunchScreen.storyboard in Resources */,
 				1E25002B1EBCF32200B69287 /* GoogleService-Info.plist in Resources */,
-				1E2500201EBCF09F00B69287 /* Assets.xcassets in Resources */,
+				1E7D03DE1F7BEE01007AD529 /* Assets.xcassets in Resources */,
 				1E25001E1EBCF09F00B69287 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,11 +309,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-pbs/Pods-pbs-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -374,7 +377,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -382,7 +387,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -424,7 +433,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -432,7 +443,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -468,7 +483,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ryanball.pbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -484,7 +500,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ryanball.pbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
